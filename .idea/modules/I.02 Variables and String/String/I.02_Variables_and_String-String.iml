@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":I.02_Variables_and_String-String" external.linked.project.path="$MODULE_DIR$/../../../../I.02 Variables and String/String" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="b19-course" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../I.02 Variables and String/String">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../I.02 Variables and String/String/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../I.02 Variables and String/String/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

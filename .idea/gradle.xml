@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/I.02 Variables and String/I.02-0-EduTools" />
+            <option value="$PROJECT_DIR$/I.02 Variables and String/I.02-1-two-symbols" />
+            <option value="$PROJECT_DIR$/I.02 Variables and String/I.02-2-palindrome" />
+            <option value="$PROJECT_DIR$/I.02 Variables and String/I.02-3-ticket" />
+            <option value="$PROJECT_DIR$/I.02 Variables and String/I.02-4-password" />
+            <option value="$PROJECT_DIR$/I.03 Functions and Loops/I.03-0-stairs" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

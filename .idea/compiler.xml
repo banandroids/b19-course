@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="I.02_Variables_and_String-Ed_main" target="1.8" />
+      <module name="I.02_Variables_and_String-Ed_test" target="1.8" />
+      <module name="I.02_Variables_and_String-EduTools-0_main" target="1.8" />
+      <module name="I.02_Variables_and_String-EduTools-0_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-edutools_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-edutools_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-edutoolss_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-edutoolss_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-1-two-symbols_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-1-two-symbols_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-2-palindrome_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-2-palindrome_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-3-ticket_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-3-ticket_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-4-password_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-4-password_test" target="1.8" />
+      <module name="I.02_Variables_and_String-if-0-password_main" target="1.8" />
+      <module name="I.02_Variables_and_String-if-0-password_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-first-last_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-first-last_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-two-symbolds_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-two-symbolds_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-two-symbols_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0-two-symbols_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-0_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1-palindrome_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1-palindrome_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1__1__main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1__1__test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-1_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-2-ticket_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-2-ticket_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String-2_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String-2_test" target="1.8" />
+      <module name="I.02_Variables_and_String-String_main" target="1.8" />
+      <module name="I.02_Variables_and_String-String_test" target="1.8" />
+      <module name="I.02_Variables_and_String-task1_main" target="1.8" />
+      <module name="I.02_Variables_and_String-task1_test" target="1.8" />
+      <module name="I.03_Functions_and_Loops-I.03-0-stairs_main" target="1.8" />
+      <module name="I.03_Functions_and_Loops-I.03-0-stairs_test" target="1.8" />
+      <module name="lesson1-task1_main" target="1.8" />
+      <module name="lesson1-task1_test" target="1.8" />
+      <module name="lesson1-Задание_1_main" target="1.8" />
+      <module name="lesson1-Задание_1_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+      <module name="Урок_1-Задание_1_main" target="1.8" />
+      <module name="Урок_1-Задание_1_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
