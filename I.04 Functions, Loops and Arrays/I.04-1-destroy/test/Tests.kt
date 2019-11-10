@@ -1,3 +1,4 @@
+import junit.framework.Assert.assertEquals
 import org.junit.*
 import org.junit.Test
 import org.junit.contrib.java.lang.system.SystemOutRule
@@ -7,19 +8,23 @@ import java.io.PrintStream
 
 class Test {
     @get:Rule
-    val systemOutRule = SystemOutRule().enableLog()
+    val systemOutRule: SystemOutRule = SystemOutRule().enableLog()
 
     @Test
     fun testSolution() {
-        test("ЪУЪ", "ЪУЪ УЪ Ъ")
-        test("Дратути", "Дратути ратути атути тути ути ти и")
+        test("AAA", "AAA\nAA\nA")
+        test("Hello", "Hello\nHell\nHel\nHe\nH")
+        test("Z", "Z")
+        test("AbC", "AbC\nAb\nA")
+        test("+-+-", "+-+-\n+-+\n+-\n+")
+        test("////////////", "////////////\n///////////\n//////////\n/////////\n////////\n///////\n//////\n/////\n////\n///\n//\n/")
     }
 
     private fun test(input: String, output: String) {
         systemOutRule.clearLog()
         System.setIn(ByteArrayInputStream(input.toByteArray()))
         main()
-        Assert.assertEquals("Не работает для входных данных: \"$input\"", output, systemOutRule.log.trim())
+        assertEquals("Не работает для входных данных: \"$input\"", output, systemOutRule.logWithNormalizedLineSeparator.trim())
     }
 
 }
