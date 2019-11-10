@@ -44,8 +44,40 @@
       <module name="I.02_Variables_and_String-String_test" target="1.8" />
       <module name="I.02_Variables_and_String-task1_main" target="1.8" />
       <module name="I.02_Variables_and_String-task1_test" target="1.8" />
+      <module name="I.03-4_Functions,_Loops_and_Arrays-I.03-0-stairs_main" target="1.8" />
+      <module name="I.03-4_Functions,_Loops_and_Arrays-I.03-0-stairs_test" target="1.8" />
       <module name="I.03_Functions_and_Loops-I.03-0-stairs_main" target="1.8" />
       <module name="I.03_Functions_and_Loops-I.03-0-stairs_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-free-backpack_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-free-backpack_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-free_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-free_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-repeat_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I-04-1-repeat_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.03-0-stairs_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.03-0-stairs_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-13_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-13_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-42_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-42_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-destory_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-destory_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-destroy_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-destroy_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-stairs_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-0-stairs_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-1-pyramid_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-1-pyramid_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-2-destroy_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-2-destroy_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-3-122333_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-3-122333_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-4-pyramid_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-4-pyramid_test" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_main" target="1.8" />
+      <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
       <module name="lesson1-task1_test" target="1.8" />
       <module name="lesson1-Задание_1_main" target="1.8" />
