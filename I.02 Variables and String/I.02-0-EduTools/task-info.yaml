@@ -1,10 +1,11 @@
 type: edu
+custom_name: I.02-0-EduTools
 files:
 - name: src/Task.kt
   visible: true
   placeholders:
   - offset: 25
-    length: 13
+    length: 14
     placeholder_text: TODO()
 - name: test/Tests.kt
   visible: false

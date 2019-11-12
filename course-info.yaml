@@ -1,8 +1,9 @@
 title: Kotlin Banana Course
 language: Russian
-summary: Курс про Kotlin от kuelye@gmail.com для <a href=\"https://www.digital-banana.ru/\">Цифрового
-  Банана</a>.
+summary: Курс про Kotlin от kuelye@gmail.com для <a href='\"https://www.digital-banana.ru/\"'
+  rel="noopener noreferrer nofollow">Цифрового Банана</a>.
 programming_language: Kotlin
 content:
 - I.02 Variables and String
-- I.04 Functions, Loops and Arrays
+- I.04 Loops and Arrays
+- I.05 Functions

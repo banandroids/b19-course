@@ -1,10 +1,11 @@
 type: edu
+custom_name: I.02-2-palindrome
 files:
 - name: src/Task.kt
   visible: true
   placeholders:
   - offset: 17
-    length: 92
+    length: 6
     placeholder_text: TODO()
 - name: test/Tests.kt
   visible: false

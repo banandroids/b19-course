@@ -1,16 +1,15 @@
-<html>
+
 <h2 style="text-align: center;">I.02-4 Генератор паролей</h2>
 <p><b>Задание:</b> Поступил рочный заказ на программу для генерации устойчивых к взлому паролей.
   Пользователь вводит с клавиатуры своё имя (одно слово) и год рождения (из четырёх цифр).
   При этом он может не вводить одно из полей или даже оба и ввести вместо этого символ <code>'-'</code>.
   Программа должна сгенерировать пароль по следующим правилам:<br>
-  <ul><li>если введено и имя, и год рождения, то пароль - это имя + две последние цифры года рождения (см. пример 1);</li>
+  </p><ul><li>если введено и имя, и год рождения, то пароль - это имя + две последние цифры года рождения (см. пример 1);</li>
   <li>если введено только имя, то пароль - это имя + <code>"282"</code> в конце (см. пример 2);</li>
   <li>если введен только год рождения, то пароль - <code>qwerty</code> и год рождения полностью (см. пример 3);</li>
-  <li>если ничего не введено (два раза <code>'-'</code>), то пароль - <code>"password"</code> (см. пример 4).</li></ul></p>
+  <li>если ничего не введено (два раза <code>'-'</code>), то пароль - <code>"password"</code> (см. пример 4).</li></ul><p></p>
 <p><b>Пример 1:</b><br>Вводим:<br><span style="color: #666;">John<br>1998</span><br>Получаем:<br><span style="color: #666;">John98</span></p>
 <p><b>Пример 2:</b><br>Вводим:<br><span style="color: #666;">Pavel<br>-</span><br>Получаем:<br><span style="color: #666;">Pavel282</span></p>
 <p><b>Пример 3:</b><br>Вводим:<br><span style="color: #666;">-<br>2027</span><br>Получаем:<br><span style="color: #666;">qwerty2027</span></p>
 <p><b>Пример 4:</b><br>Вводим:<br><span style="color: #666;">-<br>-</span><br>Получаем:<br><span style="color: #666;">password</span></p>
-<div class="hint" style="font-size: 12px;">См. <code>if-else</code> и методы по работе со строками <a href="https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02">здесь</a>.</div>
-</html>
+<div class="hint" style="font-size: 12px;">См. <code>if-else</code> и методы по работе со строками <a href="https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02" rel="noopener noreferrer nofollow">здесь</a>.</div>

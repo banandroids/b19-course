@@ -1,0 +1,11 @@
+type: edu
+custom_name: I.04-0-answer-to-the-ultimate-question
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 31
+    length: 6
+    placeholder_text: TODO()
+- name: test/Tests.kt
+  visible: false

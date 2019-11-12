@@ -2,14 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="asdsadsda-sada_main" target="1.8" />
+      <module name="asdsadsda-sada_test" target="1.8" />
       <module name="I.02_Variables_and_String-Ed_main" target="1.8" />
       <module name="I.02_Variables_and_String-Ed_test" target="1.8" />
       <module name="I.02_Variables_and_String-EduTools-0_main" target="1.8" />
       <module name="I.02_Variables_and_String-EduTools-0_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-EduTools__1__main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-EduTools__1__test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutools_main" target="1.8" />
-      <module name="I.02_Variables_and_String-I.02-0-edutools_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-edutools_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutoolss_main" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutoolss_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-1-two-symbols_main" target="1.8" />
@@ -90,10 +94,36 @@
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-4-pyramid_test" target="1.8" />
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_main" target="1.8" />
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays--_I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays--_I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I-04-3-free-backpack_main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I-04-3-free-backpack_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-1-destroy_main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-1-destroy_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-2-pyramid_main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-2-pyramid_test" target="1.8" />
+      <module name="I.05_Functions-I.05-0-random-name_main" target="1.8" />
+      <module name="I.05_Functions-I.05-0-random-name_test" target="1.8" />
+      <module name="I.05_Functions-I.05-0-search-backpack_main" target="1.8" />
+      <module name="I.05_Functions-I.05-0-search-backpack_test" target="1.8" />
+      <module name="I.05_Functions-I.05-0_main" target="1.8" />
+      <module name="I.05_Functions-I.05-0_test" target="1.8" />
+      <module name="I.05_Functions-task2_main" target="1.8" />
+      <module name="I.05_Functions-task2_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
       <module name="lesson1-task1_test" target="1.8" />
       <module name="lesson1-Задание_1_main" target="1.8" />
       <module name="lesson1-Задание_1_test" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I-04-3-free-backpack_main" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I-04-3-free-backpack_test" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-1-destroy_main" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-1-destroy_test" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-2-pyramid_main" target="1.8" />
+      <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-2-pyramid_test" target="1.8" />
       <module name="util_main" target="1.8" />
       <module name="util_test" target="1.8" />
       <module name="Урок_1-Задание_1_main" target="1.8" />
