@@ -4,6 +4,28 @@
     <bytecodeTargetLevel>
       <module name="asdsadsda-sada_main" target="1.8" />
       <module name="asdsadsda-sada_test" target="1.8" />
+      <module name="b19-course-I.02_HOME_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
+      <module name="b19-course-I.02_HOME_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
+      <module name="b19-course-I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="b19-course-I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="b19-course-I.05_CLASS_Functions-I.05-0-random-name_main" target="1.8" />
+      <module name="b19-course-I.05_CLASS_Functions-I.05-0-random-name_test" target="1.8" />
+      <module name="b19-course-I.05_CLASS_Functions-I.05-1-search-backpack_main" target="1.8" />
+      <module name="b19-course-I.05_CLASS_Functions-I.05-1-search-backpack_test" target="1.8" />
+      <module name="I.02-0-EduTools-I.02_HOME_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
+      <module name="I.02-0-EduTools-I.02_HOME_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-0-EduTools__1__main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-0-EduTools__1__test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-1-two-symbols_main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-1-two-symbols_test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-2-palindrome_main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-2-palindrome_test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-3-ticket_main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-3-ticket_test" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-4-password_main" target="1.8" />
+      <module name="I.02_HOME_Variables_and_String-I.02-4-password_test" target="1.8" />
       <module name="I.02_Variables_and_String-Ed_main" target="1.8" />
       <module name="I.02_Variables_and_String-Ed_test" target="1.8" />
       <module name="I.02_Variables_and_String-EduTools-0_main" target="1.8" />
@@ -94,6 +116,18 @@
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-4-pyramid_test" target="1.8" />
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_main" target="1.8" />
       <module name="I.04_Functions,_Loops_and_Arrays-I.04-5-pyramid_test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I-04-3-free-backpack_main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I-04-3-free-backpack_test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1___1__main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1___1__test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1__main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1__test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-1-destroy_main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-1-destroy_test" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-2-pyramid_main" target="1.8" />
+      <module name="I.04_HOME_Loops_and_Arrays-I.04-2-pyramid_test" target="1.8" />
       <module name="I.04_Loops_and_Arrays--_I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
       <module name="I.04_Loops_and_Arrays--_I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I-04-3-free-backpack_main" target="1.8" />
@@ -106,6 +140,14 @@
       <module name="I.04_Loops_and_Arrays-I.04-1-destroy_test" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I.04-2-pyramid_main" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I.04-2-pyramid_test" target="1.8" />
+      <module name="I.05__CLASS__Functions-I.05-0-random-name_main" target="1.8" />
+      <module name="I.05__CLASS__Functions-I.05-0-random-name_test" target="1.8" />
+      <module name="I.05__CLASS__Functions-I.05-1-search-backpack_main" target="1.8" />
+      <module name="I.05__CLASS__Functions-I.05-1-search-backpack_test" target="1.8" />
+      <module name="I.05_CLASS_Functions-I.05-0-random-name_main" target="1.8" />
+      <module name="I.05_CLASS_Functions-I.05-0-random-name_test" target="1.8" />
+      <module name="I.05_CLASS_Functions-I.05-1-search-backpack_main" target="1.8" />
+      <module name="I.05_CLASS_Functions-I.05-1-search-backpack_test" target="1.8" />
       <module name="I.05_Functions-I.05-0-random-name_main" target="1.8" />
       <module name="I.05_Functions-I.05-0-random-name_test" target="1.8" />
       <module name="I.05_Functions-I.05-0-search-backpack_main" target="1.8" />
@@ -128,6 +170,10 @@
       <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-1-destroy_test" target="1.8" />
       <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-2-pyramid_main" target="1.8" />
       <module name="old_I.04_Functions,_Loops_and_Arrays-I.04-2-pyramid_test" target="1.8" />
+      <module name="old_I.05_CLASS_Functions-I.05-0-random-name_main" target="1.8" />
+      <module name="old_I.05_CLASS_Functions-I.05-0-random-name_test" target="1.8" />
+      <module name="old_I.05_CLASS_Functions-I.05-1-search-backpack_main" target="1.8" />
+      <module name="old_I.05_CLASS_Functions-I.05-1-search-backpack_test" target="1.8" />
       <module name="util_main" target="1.8" />
       <module name="util_test" target="1.8" />
       <module name="Урок_1-Задание_1_main" target="1.8" />

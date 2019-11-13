@@ -1,0 +1,11 @@
+type: edu
+custom_name: I.04-1-destroy
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 17
+    length: 24
+    placeholder_text: // место для вашего кода
+- name: test/Tests.kt
+  visible: false
