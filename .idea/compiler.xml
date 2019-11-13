@@ -98,6 +98,8 @@
       <module name="I.04_Loops_and_Arrays--_I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I-04-3-free-backpack_main" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I-04-3-free-backpack_test" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1__main" target="1.8" />
+      <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question__1__test" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_main" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I.04-0-answer-to-the-ultimate-question_test" target="1.8" />
       <module name="I.04_Loops_and_Arrays-I.04-1-destroy_main" target="1.8" />
@@ -110,6 +112,8 @@
       <module name="I.05_Functions-I.05-0-search-backpack_test" target="1.8" />
       <module name="I.05_Functions-I.05-0_main" target="1.8" />
       <module name="I.05_Functions-I.05-0_test" target="1.8" />
+      <module name="I.05_Functions-I.05-1-search-backpack_main" target="1.8" />
+      <module name="I.05_Functions-I.05-1-search-backpack_test" target="1.8" />
       <module name="I.05_Functions-task2_main" target="1.8" />
       <module name="I.05_Functions-task2_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
