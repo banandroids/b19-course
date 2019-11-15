@@ -3,9 +3,5 @@ custom_name: I-04-3-free-backpack
 files:
 - name: src/Task.kt
   visible: true
-  placeholders:
-  - offset: 17
-    length: 24
-    placeholder_text: // место для вашего кода
 - name: test/Tests.kt
   visible: false

@@ -1,4 +1,4 @@
 fun main() {
     val s = readLine()!!
-    println(s.first() + "..." + s.last())
+    println(/* место для вашего кода */)
 }

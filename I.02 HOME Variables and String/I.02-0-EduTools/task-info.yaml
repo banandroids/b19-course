@@ -1,0 +1,7 @@
+type: edu
+custom_name: I.02-0-EduTools
+files:
+- name: test/Tests.kt
+  visible: false
+- name: src/Task.kt
+  visible: true

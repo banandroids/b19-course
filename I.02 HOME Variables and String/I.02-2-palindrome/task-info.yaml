@@ -3,9 +3,5 @@ custom_name: I.02-2-palindrome
 files:
 - name: src/Task.kt
   visible: true
-  placeholders:
-  - offset: 17
-    length: 27
-    placeholder_text: /* место для вашего кода */
 - name: test/Tests.kt
   visible: false
