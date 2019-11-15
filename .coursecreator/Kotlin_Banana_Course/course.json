@@ -1,0 +1,429 @@
+{
+  "id" : 59411,
+  "update_date" : "Nov 13, 2019 09:08:14 PM",
+  "title" : "Kotlin Banana Course",
+  "items" : [
+    {
+      "id" : 268885,
+      "title" : "I.02 HOME Variables and String",
+      "update_date" : "Nov 10, 2019 03:39:12 PM",
+      "task_list" : [
+        {
+          "name" : "I.02-0-EduTools",
+          "stepic_id" : 924281,
+          "update_date" : "Nov 12, 2019 12:56:06 PM",
+          "custom_name" : "I.02-0-EduTools",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 25,
+                  "length" : 6,
+                  "possible_answer" : "\"aaaaaaaaaaaa\"",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    println(TODO())\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\nimport java.nio.charset.StandardCharsets.UTF_8\n\nclass Test {\n    @get:Rule\n    val systemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        main()\n        val result = systemOutRule.log.trim()\n        Assert.assertEquals(\"Нужно вывести в консоль \\\"aaaaaaaaaaaa\\\" (это английское а), а не \\\"${result}\\\"\", \"aaaaaaaaaaaa\", result)\n    }\n}"
+            }
+          },
+          "description_text" : "\r\n<h2 style=\"text-align: center;\">EduTools</h2>\r\n<p><b>Задание</b>: Отобразите в консоли <code>\"aaaaaaaaaaaa\"</code>.</p>\r\n<p><i>Это задание чисто для того, чтобы проверить, что среда IntelliJ IDEA и плагин EduTools\r\n    настроены верно, ну и чтобы немного разобраться с интерфейсом EduTools.</i></p>\r\n<h4>Авторизация в Stepik</h4>\r\n<p>Для начала нужно зайти в Stepik в IDEA (чтобы сохранялся прогресс) - для этого найдите в IDEA кнопку в самом внизу ближе к правому краю и выберите там единственный пункт <i>Log in</i>:</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/00.png\">\r\n<p>У вас откроется браузер c stepik.org, залогинитесь и дайте права плагину EduTools:</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/01.png\">\r\n<p>После этого stepik.org вам напишет что-то про authorization succeeded, вернитесь в IDEA и проверьте, чтобы кнопка была зелёненькой.</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/02.png\">\r\n<h4>Интерфейс IDEA+EduTools</h4>\r\n<p>Слева - список уроков и заданий (кликайте на любое задание, чтобы открыть; кликайте на кнопку <i>Project</i>, чтобы открыть-закрыть вот ето окно):</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/03.png\">\r\n<p>Справа - условие выбранного задания (кликайте на кнопку <i>Task</i>, чтобы открыть-закрыть вот ето окно):</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/04.png\">\r\n<p>По центру, как обычно, окно редактирования кода; вот это <code>TODO()</code> - это просто заглушка для вашего кода (то есть она означает, что в том месте вам нужно написать свой код). Вы можете запускать приложение, если хотите сами его проверить, как обычно - кликая на зелёный треугольник.</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/05.png\">\r\n<p>Чтобы запустить окончательное тестирование - нажимайте на кнопку <i>Check</i> (она находится под заданием; нажимать можно сколько угодно раз - попытки тут не считаются):</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/06.png\">\r\n<p>Если решение неправильное, то вы увидите подробности проверки (рядом с <i>Expected</i> там - правильный ответ, а с <i>Actual</i> - ваш ответ):</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/07.png\">\r\n<p>Если решение верное, то будет <i>Congratulations</i>, в <i>Project</i> задание будет подсвечиваться зелёным как решенное, и в самом Stepik (если зайти туда через браузер) прогресс будет сохранён и задание тоже будет подсвечено зелёным:</p>\r\n<img src=\"https://github.com/banandroids/b19-course/raw/master/I.02%20Variables%20and%20String/I.02-0-EduTools/res/08.png\">\r\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.02-1-two-symbols",
+          "stepic_id" : 924282,
+          "update_date" : "Nov 12, 2019 12:56:08 PM",
+          "custom_name" : "I.02-1-two-symbols",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 50,
+                  "length" : 6,
+                  "possible_answer" : "s.firs",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    val s = readLine()!!\n    println(TODO()t() + \"...\" + s.last())\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"Vladimir Vladimirovich Putin\", \"V...n\")\n        test(\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\", \"L....\")\n        test(\"AaaaaaaAAAAAAaaaAAAaaaaaaaAAaaaaa\", \"A...a\")\n        test(\"#@\", \"#...@\")\n        test(\"............\", \".....\")\n        test(\"0..................0\", \"0...0\")\n    }\n\n    private fun test(input: String, output: String) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(input.toByteArray()))\n        main()\n        Assert.assertEquals(\"Не работает для входных данных: \\\"$input\\\"\", output, systemOutRule.log.trim())\n    }\n\n}"
+            }
+          },
+          "description_text" : "\r\n<h2 style=\"text-align: center;\">I.02-1 ...</h2>\r\n<p><b>Задание:</b> Пользователь вводит с клавиатуры некоторый текст. Программа должна сократить его, оставив только первый символ и последний символ, а между ними отобразить троеточие <code>\"...\"</code>. Результат - в консоль.</p>\r\n<p><i>При этом пользователь точно введёт хотя бы два символа, не будет начинать с пробела и заканчивать пробелом - хитрые случаи не нужно пока рассматривать.</i></p>\r\n<p><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">Vladimir Vladimirovich Putin</span><br>Получаем:<br><span style=\"color: #666;\">V...n</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br>Получаем:<br><span style=\"color: #666;\">L....</span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">См. методы по работе со строками <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02#string\" rel=\"noopener noreferrer nofollow\">здесь</a>.</div>\r\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.02-2-palindrome",
+          "stepic_id" : 924283,
+          "update_date" : "Nov 12, 2019 12:56:10 PM",
+          "custom_name" : "I.02-2-palindrome",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "var s ",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()= readLine()!!\n    s = s.toLowerCase().replace(\" \", \"\")\n    println(s.reversed() == s)\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"Ahaha\", true)\n        test(\"ahaho\", false)\n        test(\"Anna\", true)\n        test(\"Amore           Roma\", true)\n        test(\"Was it a car or a cat I saw\", true)\n        test(\"AAAaaaaAAAAaaaaaAAAA\", true)\n        test(\"AZ\", false)\n        test(\"Ahahaahahahahahaahaa\", false)\n        test(\"palindrome\", false)\n    }\n\n    private fun test(input: String, output: Boolean) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(input.toByteArray()))\n        main()\n        Assert.assertEquals(\"Не работает для входных данных: \\\"$input\\\"\", output.toString(), systemOutRule.log.trim())\n    }\n\n}"
+            }
+          },
+          "description_text" : "\r\n<h2 style=\"text-align: center;\">I.02-2 Ahaha</h2>\r\n<p><b>Задание:</b> Очень нужно приложение, которое будет проверять, является ли введённый текст палиндромом (это когда читается одинаково слева направо и справа налево). Текст будет состоять только из букв (больших и маленьких) и пробелов.</p>\r\n<p><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">Ahaha</span><br>Получаем:<br><span style=\"color: #666;\">true</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">ahaho</span><br>Получаем:<br><span style=\"color: #666;\">false</span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">См. методы по работе со строками <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02\" rel=\"noopener noreferrer nofollow\">здесь</a>.</div>\r\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.02-3-ticket",
+          "stepic_id" : 924284,
+          "update_date" : "Nov 12, 2019 12:56:11 PM",
+          "custom_name" : "I.02-3-ticket",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "val s ",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()= readLine()!!\n    val sumEquals = (s[0].toInt() + s[1].toInt() + s[2].toInt()\n            == s[3].toInt() + s[4].toInt() + s[5].toInt())\n    println(sumEquals && !s.contains(\"666\"))\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"000000\", true)\n        test(\"000001\", false)\n        test(\"123321\", true)\n        test(\"576675\", true)\n        test(\"782179\", true)\n        test(\"912920\", false)\n        test(\"999998\", false)\n        test(\"999999\", true)\n        test(\"066660\", false)\n        test(\"660066\", true)\n        test(\"666666\", false)\n    }\n\n    private fun test(ticket: String, lucky: Boolean) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(ticket.toByteArray()))\n        main()\n        Assert.assertEquals(\"Не работает для билета #$ticket\", lucky.toString(), systemOutRule.log.trim())\n    }\n\n}"
+            }
+          },
+          "description_text" : "\r\n<h2 style=\"text-align: center;\">I.02-3 Счастливый билет</h2>\r\n<p><b>Задание:</b> Напишите приложение, которое будет проверять, является ли номер билета (их 6 цифр) счастливым (и выводить в консоль <code>true</code> или <code>false</code>). Билет - счастливый, если сумма первых трёх цифр в нём равна сумме трёх последних цифр. И ещё очень важно, чтобы в билете не встречалось три шестёрки подряд - билеты с <code>666</code> - это сатанизм какой-то!</p>\r\n<p><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">123321</span><br>Получаем:<br><span style=\"color: #666;\">true</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">000001</span><br>Получаем:<br><span style=\"color: #666;\">false</span></p>\r\n<p><b>Пример 3:</b><br>Вводим:<br><span style=\"color: #666;\">066660</span><br>Получаем:<br><span style=\"color: #666;\">false</span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">См. логические операторы и методы по работе со строками <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02\" rel=\"noopener noreferrer nofollow\">здесь</a>.</div>\r\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.02-4-password",
+          "stepic_id" : 924285,
+          "update_date" : "Nov 12, 2019 12:56:14 PM",
+          "custom_name" : "I.02-4-password",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "val na",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()me = readLine()!!\n    val year = readLine()!!\n    if (name == \"-\") {\n        if (year == \"-\") {\n            println(\"password\")\n        } else {\n            println(\"qwerty$year\")\n        }\n    } else if (year == \"-\") {\n        println(\"${name}282\")\n    } else {\n        println(\"$name${year.substring(2)}\")\n    }\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"John\", \"1998\", \"John98\")\n        test(\"Pavel\", \"-\", \"Pavel282\")\n        test(\"-\", \"2027\", \"qwerty2027\")\n        test(\"-\", \"-\", \"password\")\n        test(\"FFFFFFffffFFFFFFFFf\", \"-\", \"FFFFFFffffFFFFFFFFf282\")\n        test(\"Elon\", \"1000\", \"Elon00\")\n        test(\"-\", \"9999\", \"qwerty9999\")\n    }\n\n    private fun test(name: String, year: String, password: String) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(\"$name\\n$year\".toByteArray()))\n        main()\n        Assert.assertEquals(\"Неправильный ответ для имени \\\"$name\\\" и года рождения \\\"$year\\\"\", password, systemOutRule.log.trim())\n    }\n\n}"
+            }
+          },
+          "description_text" : "\r\n<h2 style=\"text-align: center;\">I.02-4 Генератор паролей</h2>\r\n<p><b>Задание:</b> Поступил рочный заказ на программу для генерации устойчивых к взлому паролей.\r\n  Пользователь вводит с клавиатуры своё имя (одно слово) и год рождения (из четырёх цифр).\r\n  При этом он может не вводить одно из полей или даже оба и ввести вместо этого символ <code>'-'</code>.\r\n  Программа должна сгенерировать пароль по следующим правилам:<br>\r\n  </p><ul><li>если введено и имя, и год рождения, то пароль - это имя + две последние цифры года рождения (см. пример 1);</li>\r\n  <li>если введено только имя, то пароль - это имя + <code>\"282\"</code> в конце (см. пример 2);</li>\r\n  <li>если введен только год рождения, то пароль - <code>qwerty</code> и год рождения полностью (см. пример 3);</li>\r\n  <li>если ничего не введено (два раза <code>'-'</code>), то пароль - <code>\"password\"</code> (см. пример 4).</li></ul><p></p>\r\n<p><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">John<br>1998</span><br>Получаем:<br><span style=\"color: #666;\">John98</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">Pavel<br>-</span><br>Получаем:<br><span style=\"color: #666;\">Pavel282</span></p>\r\n<p><b>Пример 3:</b><br>Вводим:<br><span style=\"color: #666;\">-<br>2027</span><br>Получаем:<br><span style=\"color: #666;\">qwerty2027</span></p>\r\n<p><b>Пример 4:</b><br>Вводим:<br><span style=\"color: #666;\">-<br>-</span><br>Получаем:<br><span style=\"color: #666;\">password</span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">См. <code>if-else</code> и методы по работе со строками <a href=\"https://github.com/banandroids/b19-A-encyclopedia/wiki/I.02\" rel=\"noopener noreferrer nofollow\">здесь</a>.</div>\r\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 249905,
+      "type" : "lesson"
+    },
+    {
+      "id" : 275286,
+      "title" : "I.04 HOME Loops and Arrays",
+      "update_date" : "Nov 12, 2019 12:55:57 PM",
+      "task_list" : [
+        {
+          "name" : "I.04-0-answer-to-the-ultimate-question (1)",
+          "stepic_id" : 928288,
+          "update_date" : "Nov 12, 2019 12:56:02 PM",
+          "custom_name" : "I.04-0-answer-to-the-ultimate-question",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 31,
+                  "length" : 6,
+                  "possible_answer" : "IntArr",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    val numbers = TODO()ay(42)\n    for (i in numbers.indices) numbers[i] = i + 1\n    println(numbers.joinToString())\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Assert.assertEquals\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule: SystemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        systemOutRule.clearLog()\n        main()\n        val ints = systemOutRule.log.trim().split(\",\").map { it.trim().toInt() }\n        assertEquals(\"Неверная длина массива\", 42, ints.size)\n        for (i in ints.indices) {\n            assertEquals(\"Неправильный $i элемент\", i + 1, ints[i])\n        }\n    }\n\n}"
+            }
+          },
+          "description_text" : "\n<h2 style=\"text-align: center;\">I.04-0 Ответ на главный вопрос</h2>\n<p><b>Задание:</b> Создайте массив целых чисел <code>Int</code> по имени <code>numbers</code> размером <code>42</code>, первый элемент которого равен <code>1</code>, второй - <code>2</code> и так далее до последнего - <code>42</code>.</p>\n<p><i>Строчку кода <code>println(numbers.joinToString())</code> не удаляйте - она нужна для проверки.</i></p>\n<div class=\"hint\" style=\"font-size: 12px;\">См. как создаются массивы <code>IntArray</code> и про цикл <code>for</code> <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04\" rel=\"noopener noreferrer nofollow\">здесь</a>.</div>\n",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.04-1-destroy",
+          "stepic_id" : 928289,
+          "update_date" : "Nov 12, 2019 12:56:04 PM",
+          "custom_name" : "I.04-1-destroy",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "var s ",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()= readLine()!!\n    println(s)\n    repeat(s.length) {\n        s = s.substring(0, s.length - 1)\n        println(s)\n    }\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import junit.framework.Assert.assertEquals\nimport org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule: SystemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"AAA\", \"AAA\\nAA\\nA\")\n        test(\"Hello\", \"Hello\\nHell\\nHel\\nHe\\nH\")\n        test(\"Z\", \"Z\")\n        test(\"AbC\", \"AbC\\nAb\\nA\")\n        test(\"+-+-\", \"+-+-\\n+-+\\n+-\\n+\")\n        test(\"////////////\", \"////////////\\n///////////\\n//////////\\n/////////\\n////////\\n///////\\n//////\\n/////\\n////\\n///\\n//\\n/\")\n    }\n\n    private fun test(input: String, output: String) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(input.toByteArray()))\n        main()\n        assertEquals(\"Не работает для входных данных: \\\"$input\\\"\", output, systemOutRule.logWithNormalizedLineSeparator.trim())\n    }\n\n}"
+            }
+          },
+          "description_text" : "<html>\r\n<h2 style=\"text-align: center;\">I.04-1 Destroy!</h2>\r\n<p><b>Задание:</b> Пользователь вводит с клавиатуры некоторый текст. Программа в ответ начинает постепенно его уничтожать: по очереди удаляет символы (начинает с последнего) и выводит результат в консоль.</p>\r\n<p><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">AAA</span><br>Получаем:<br><span style=\"color: #666;\">ААА<br>AA<br>A</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">Hello</span><br>Получаем:<br><span style=\"color: #666;\">Hello<br>Hell<br>Hel<br>He<br>H</span></p>\r\n<p><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">Z</span><br>Получаем:<br><span style=\"color: #666;\">Z</span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">Читайте про цикл <code>for</code> <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">здесь</a> и про метод <code>substring</code> (или <code>remove</code>) <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.02#string\">здесь</a>.</div>\r\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.04-2-pyramid",
+          "stepic_id" : 928290,
+          "update_date" : "Nov 12, 2019 12:56:05 PM",
+          "custom_name" : "I.04-2-pyramid",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "val si",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()ze = readLine()!!.toInt()\n    for (i in 0 until size) {\n        repeat(size - i - 1) { print(\" \") }\n        repeat(i * 2 + 1) { print(\"#\") }\n        println()\n    }\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule: SystemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(1, arrayOf(\"#\"))\n        test(2, arrayOf(\" #\", \"###\"))\n        test(3, arrayOf(\"  #\", \" ###\", \"#####\"))\n        test(5, generate(5))\n        test(10, generate(10))\n    }\n\n    private fun test(size: Int, output: Array<String>) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(size.toString().toByteArray()))\n        main()\n        val result: Array<String> = systemOutRule.logWithNormalizedLineSeparator.trimEnd().split(\"\\n\").map { it.trimEnd() }.toTypedArray()\n        Assert.assertArrayEquals(\"Неправильный ответ для высоты = $size\", output, result)\n    }\n\n    private fun generate(size: Int) = Array<String>(size) { i -> \" \".repeat(size - i - 1) + \"#\".repeat(i * 2 + 1)}\n\n}"
+            }
+          },
+          "description_text" : "<html>\r\n<h2 style=\"text-align: center;\">I.04-2 Пирамида</h2>\r\n<p><b>Задание:</b> В этот раз строим пирамиды из символа <code>'#'</code>: пользователь вводит число (положительное) - высоту пирамиды, а мы ему в ответ - саму пирамиду.</p>\r\n<p style=\"margin: 0px\"><b>Пример 1:</b><br>Вводим:<br><span style=\"color: #666;\">1</span><br>Получаем:<br><span style=\"color: #666;\"><p style=\"font-family: monospace; margin: 0px;\">#</p></span></p>\r\n<p style=\"margin: 0px\"><b>Пример 2:</b><br>Вводим:<br><span style=\"color: #666;\">2</span><br>Получаем:<br><span style=\"color: #666;\"><p style=\"font-family: monospace; margin: 0px;\">&nbsp;#<br>###</p></span></p>\r\n<p style=\"margin: 0px\"><b>Пример 3:</b><br>Вводим:<br><span style=\"color: #666;\">3</span><br>Получаем:<br><span style=\"color: #666;\"><p style=\"font-family: monospace; margin: 0px;\">&nbsp;&nbsp;#<br>&nbsp;###<br>#####</p></span></p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">Читайте про цикл <code>repeat</code> <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.03#repeat\">здесь</a>, про цикл <code>for</code> <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">здесь</a>.</div>\r\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I-04-3-free-backpack",
+          "stepic_id" : 924279,
+          "update_date" : "Nov 12, 2019 12:56:16 PM",
+          "custom_name" : "I-04-3-free-backpack",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 17,
+                  "length" : 6,
+                  "possible_answer" : "val n ",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    TODO()= readLine()!!.toInt()\n    val backpack = Array(n) { \"\" }\n    for (i in 0 until n) {\n        backpack[i] = readLine()!!\n    }\n    var noEmpty = true\n    for (i in backpack.indices) {\n        if (backpack[i].isEmpty()) {\n            noEmpty = false\n            print(\"${i + 1} \")\n        }\n    }\n    if (noEmpty) println('-')\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import junit.framework.Assert.assertEquals\nimport org.junit.*\nimport org.junit.Test\nimport org.junit.contrib.java.lang.system.SystemOutRule\nimport java.io.ByteArrayInputStream\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n    @get:Rule\n    val systemOutRule: SystemOutRule = SystemOutRule().enableLog()\n\n    @Test\n    fun testSolution() {\n        test(\"3\\nSword\\n\\nBread\", intArrayOf(2))\n        test(\"2\\nSword\\nBread\")\n        test(\"5\\n\\n\\nSword\\n\\n\\n\", intArrayOf(1, 2, 4, 5))\n        test(\"5\\nSword\\nSword\\nSword\\nSword\\nSword\")\n        test(\"10\\nBread\\nBow\\n\\nSword\\n\\nBread\\n\\n\\n\\nSword\", intArrayOf(3,5,7,8,9))\n        test(\"6\\n\\n\\n\\n\\n\\n\\n\", intArrayOf(1, 2, 3, 4, 5, 6))\n        test(\"5\\nSword\\n\\n\\n\\nBread\\n\", intArrayOf(2, 3, 4))\n    }\n\n    private fun test(input: String) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(input.toByteArray()))\n        main()\n        assertEquals(\"Неправильный ответ для входных данных:\\n$input\", \"-\", systemOutRule.log.trim())\n    }\n\n    private fun test(input: String, output: IntArray) {\n        systemOutRule.clearLog()\n        System.setIn(ByteArrayInputStream(input.toByteArray()))\n        main()\n        val result = systemOutRule.log.trim()\n        Assert.assertArrayEquals(\"Неправильный ответ для входных данных:\\n$input\\n\", output, if (result.isBlank()) intArrayOf() else result.split(\" \").map { it.trim().toInt() }.toIntArray())\n    }\n\n}"
+            },
+            "res/00.png" : {
+              "name" : "res/00.png",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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"
+            },
+            "res/01.png" : {
+              "name" : "res/01.png",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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"
+            },
+            "res/02.png" : {
+              "name" : "res/02.png",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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"
+            }
+          },
+          "description_text" : "<p>\r\n<h2 style=\"text-align: center;\">I.04-3 Свободные ячейки в рюкзаке</h2>\r\n<p><b>Задание:</b> Это задачка для проекта, который мы делаем в классе.</p>\r\n<p>Пользователь сначала вводит в консоль количество ячеек в рюкзаке, а затем перечисляет, что лежит в каждой ячейке: сначала - что лежит в первой, потом - что лежит во второй и так далее. Если в ячейке ничего не лежит - то он ничего не вводит, просто Enter нажимает.</p>\r\n<p>Если в итоге в рюкзаке есть свободные ячейки, то отобразите в консоли список номеров (нормальных номеров!, то есть у первой ячейки номер - 1) через пробел. Если нет свободных - то выводим сивол <code>'-'</code>.</p>\r\n<p><b>Пример 1:</b>\r\n    <img src=\"https://github.com/banandroids/b19-course/raw/master/I.04%20Functions%2C%20Loops%20and%20Arrays/I-04-3-free-backpack/res/00.png\"/>\r\n    Вводим:<br><span style=\"color: #666;\">3<br>Sword<br><br>Bread</span><br>Получаем (свободна только вторая ячейка):<br><span style=\"color: #666;\">2</span>\r\n</p>\r\n<p><b>Пример 2:</b>\r\n    <img src=\"https://github.com/banandroids/b19-course/raw/master/I.04%20Functions%2C%20Loops%20and%20Arrays/I-04-3-free-backpack/res/02.png\"/>\r\n    Вводим:<br><span style=\"color: #666;\">5<br><br><br>Sword<br><br></b></span><br>Получаем (свободны все ячейки кроме 3):<br><span style=\"color: #666;\">1 2 4 5</span>\r\n</p>\r\n<p><b>Пример 3:</b>\r\n    <img src=\"https://github.com/banandroids/b19-course/raw/master/I.04%20Functions%2C%20Loops%20and%20Arrays/I-04-3-free-backpack/res/01.png\"/>\r\n    Вводим:<br><span style=\"color: #666;\">2<br>Sword<br>Potion</b></span><br>Получаем (все ячейки заняты):<br><span style=\"color: #666;\">-<br></span>\r\n</p>\r\n<div class=\"hint\" style=\"font-size: 12px;\">Читайте про цикл <code>for</code> <a href=\"https://github.com/banandroids/b19-p-encyclopedia/wiki/I.04#%D1%86%D0%B8%D0%BA%D0%BB-for\">здесь</a>.</div>\r\n</html> ",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 256393,
+      "type" : "lesson"
+    },
+    {
+      "id" : 0,
+      "title" : "I.05 CLASS Functions",
+      "update_date" : "Jan 01, 1970 12:00:00 AM",
+      "task_list" : [
+        {
+          "name" : "I.05-0-random-name",
+          "stepic_id" : 0,
+          "update_date" : "Jan 01, 1970 12:00:00 AM",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "// место для вашего кода"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Test\n\nclass Test {\n    @Test fun testSolution() {\n        val map: MutableMap<String, Int> = mutableMapOf(\"Elon\" to 0, \"John\" to 0, \"Ivan\" to 0)\n        for (i in 0..1000) {\n            val name = getRandomName()\n            Assert.assertTrue(\"Метод вернул $name, хотя должен отдавать только \\\"Elon\\\", или \\\"John\\\", или \\\"Ivan\\\"\", name in arrayOf(\"Elon\", \"John\", \"Ivan\"))\n            map[name] = map[name]!! + 1\n        }\n        for ((key, value) in map) {\n            Assert.assertTrue(\"Метод не возвращает имя $key\", value != 0)\n        }\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\r\n<h2 style=\"text-align: center;\">I.05-0 Рандомное имя</h2>\r\n<p><b>Задание:</b> Напишите функцию <code>getRandomName</code>, которая возвращает рандомное имя, выбирая из 3 вариантов: <code>\"Elon\"</code>, <code>\"John\"</code> и <code>\"Ivan\"</code>.</p>\r\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "I.05-1-search-backpack",
+          "stepic_id" : 0,
+          "update_date" : "Jan 01, 1970 12:00:00 AM",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "// место для вашего кода"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Test\n\nclass Test {\n    @Test fun testSolution() {\n        val backpack = getRandomBackpack(1000)\n        Assert.assertTrue(\"Неправильное количество ячеек в рюкзаке\", 1000 == backpack.size)\n        val map: MutableMap<String, Int> = mutableMapOf(\"Bread\" to 0, \"Sword\" to 0, \"Book\" to 0, \"Potion\" to 0)\n        for (thing in backpack) {\n            Assert.assertTrue(\"В рюкзаке лежит $thing, хотя должно лежать только \\\"Bread\\\", или \\\"Sword\\\", или \\\"Book\\\", или \\\"Potion\\\"\", thing in arrayOf(\"Bread\", \"Sword\", \"Book\", \"Potion\"))\n            map[thing] = map[thing]!! + 1\n        }\n        for ((key, value) in map) {\n            Assert.assertTrue(\"В рюкзак не добавляется $key\", value != 0)\n        }\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\r\n<h2 style=\"text-align: center;\">I.05-1 Рандомный рюкзак</h2>\r\n<p><b>Задание:</b> Напишите функцию <code>getRandomBackpack</code> с одним параметром - количеством ячеек в рюкзаке.\r\n  Эта функция должна возвращать рюкзак, то есть <code>Array&lt;String&gt;</code>, наполненный рандомным содержимым.\r\n  Варианты того, что можно положить в рюкзак: <code>\"Bread\"</code>, <code>\"Sword\"</code>, <code>\"Book\"</code>, <code>\"Potion\"</code>.</p>\r\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "unit_id" : 0,
+      "type" : "lesson"
+    },
+    {
+      "id" : 0,
+      "title" : "I.06 CLASS OOP",
+      "update_date" : "Jan 01, 1970 12:00:00 AM",
+      "task_list" : [ ],
+      "unit_id" : 0,
+      "type" : "lesson"
+    }
+  ],
+  "authors" : [
+    "Alexey Leshchuk"
+  ],
+  "summary" : "Курс про Kotlin от kuelye@gmail.com для <a href='\\\"https://www.digital-banana.ru/\\\"' rel=\"noopener noreferrer nofollow\">Цифрового Банана</a>.",
+  "programming_language" : "kotlin",
+  "language" : "ru",
+  "additional_files" : [
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "buildscript {\r\n    ext.kotlin_version = '1.3.50'\r\n\r\n    repositories {\r\n        mavenCentral()\r\n        \r\n    }\r\n\r\n    dependencies {\r\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version\"\r\n    }\r\n}\r\n\r\ndef printOutput(def output) {\r\n    return tasks.create(\"printOutput\") {\r\n        for (line in output.toString().readLines()) {\r\n            println \"#educational_plugin\" + line\r\n        }\r\n    }\r\n}\r\n\r\nsubprojects {\r\n    apply plugin: 'application'\r\n    apply plugin: 'java'\r\n    apply plugin: 'kotlin'\r\n\r\n    sourceCompatibility = 1.8\r\n\r\n    repositories {\r\n        mavenCentral()\r\n        \r\n    }\r\n\r\n    dependencies {\r\n        compile \"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version\"\r\n        testCompile group: 'junit', name: 'junit', version: '4.12'\r\n        testCompile group: 'com.github.stefanbirkner', name: 'system-rules', version: '1.19.0'\r\n    }\r\n\r\n    compileKotlin.destinationDir = compileJava.destinationDir\r\n\r\n    compileKotlin {\r\n        kotlinOptions.jvmTarget = \"1.8\"\r\n    }\r\n    compileTestKotlin {\r\n        kotlinOptions.jvmTarget = \"1.8\"\r\n    }\r\n\r\n    sourceSets {\r\n        main {\r\n            kotlin.srcDir 'src'\r\n            java.srcDir 'src'\r\n        }\r\n        test {\r\n            kotlin.srcDir 'test'\r\n            java.srcDir 'test'\r\n        }\r\n    }\r\n\r\n    mainClassName = project.hasProperty(\"mainClass\") ? project.getProperty(\"mainClass\") : \"\"\r\n    test {\r\n        outputs.upToDateWhen { false }\r\n        afterTest { TestDescriptor test, TestResult result ->\r\n            if (result.resultType == TestResult.ResultType.FAILURE) {\r\n                def message = result.exception?.message ?: \"Wrong answer\"\r\n                def lines = message.readLines()\r\n                println \"#educational_plugin FAILED + \" + lines[0]\r\n                lines.subList(1, lines.size()).forEach { line ->\r\n                  println \"#educational_plugin\" + line\r\n                }\r\n                // we need this to separate output of different tests\r\n                println()\r\n            }\r\n        }\r\n    }\r\n\r\n    def runOutput = new ByteArrayOutputStream()\r\n    tasks.run.setStandardOutput(runOutput)\r\n    tasks.run.doLast { printOutput(runOutput) }\r\n}\r\n\r\nproject(':util') {\r\n    dependencies {\r\n        compile group: 'junit', name: 'junit', version: '4.12'\r\n    }\r\n}\r\n\r\nconfigure(subprojects.findAll {it.name != 'util'}) {\r\n  dependencies {\r\n    compile project(':util').sourceSets.main.output\r\n    testCompile project(':util').sourceSets.test.output\r\n  }\r\n}\r\n"
+    },
+    {
+      "name" : "settings.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "// Should be the same as `com.jetbrains.edu.learning.courseGeneration.GeneratorUtils.sanitizeName`\r\nstatic String sanitizeName(String name) {\r\n    return name.replaceAll(\"[ /\\\\\\\\:<>\\\"?*|()]\", \"_\")\r\n}\r\n\r\nrootProject.name = 'b19-course'\r\n\r\nrootProject.projectDir.eachDirRecurse {\r\n    if (!isTaskDir(it) || it.path.contains(\".idea\")) {\r\n        return\r\n    }\r\n    def taskRelativePath = rootDir.toPath().relativize(it.toPath())\r\n    def parts = []\r\n    for (name in taskRelativePath) {\r\n        parts.add(sanitizeName(name.toString()))\r\n    }\r\n    def moduleName =  parts.join(\"-\")\r\n    include \"$moduleName\"\r\n    project(\":$moduleName\").projectDir = it\r\n}\r\n\r\ndef isTaskDir(File dir) {\r\n    return new File(dir, \"src\").exists()\r\n}\r\n\r\ninclude 'util'"
+    }
+  ],
+  "course_type" : "PyCharm",
+  "version" : 11
+}
