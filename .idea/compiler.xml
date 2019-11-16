@@ -158,6 +158,14 @@
       <module name="I.05_Functions-I.05-1-search-backpack_test" target="1.8" />
       <module name="I.05_Functions-task2_main" target="1.8" />
       <module name="I.05_Functions-task2_test" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-kinopoisk_test" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-song_main" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-song_test" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-1-pizza_main" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-1-pizza_test" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-2-song_main" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-2-song_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
       <module name="lesson1-task1_test" target="1.8" />
       <module name="lesson1-Задание_1_main" target="1.8" />
