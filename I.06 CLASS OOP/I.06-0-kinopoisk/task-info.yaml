@@ -1,4 +1,5 @@
 type: edu
+custom_name: I.06-0-kinopoisk
 files:
 - name: src/Task.kt
   visible: true
