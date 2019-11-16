@@ -1,4 +1,5 @@
 type: edu
+custom_name: I.06-1-pizza
 files:
 - name: src/Task.kt
   visible: true

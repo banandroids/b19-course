@@ -12,6 +12,8 @@
       <module name="b19-course-I.05_CLASS_Functions-I.05-0-random-name_test" target="1.8" />
       <module name="b19-course-I.05_CLASS_Functions-I.05-1-search-backpack_main" target="1.8" />
       <module name="b19-course-I.05_CLASS_Functions-I.05-1-search-backpack_test" target="1.8" />
+      <module name="b19-course-I.06_CLASS_OOP-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="b19-course-I.06_CLASS_OOP-I.06-0-kinopoisk_test" target="1.8" />
       <module name="I.02-0-EduTools-I.02_HOME_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
       <module name="I.02-0-EduTools-I.02_HOME_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
       <module name="I.02_HOME_Variables_and_String-I.02-0-EduTools__1__main" target="1.8" />
@@ -158,6 +160,8 @@
       <module name="I.05_Functions-I.05-1-search-backpack_test" target="1.8" />
       <module name="I.05_Functions-task2_main" target="1.8" />
       <module name="I.05_Functions-task2_test" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-kinopoisk__1__main" target="1.8" />
+      <module name="I.06_CLASS_OOP-I.06-0-kinopoisk__1__test" target="1.8" />
       <module name="I.06_CLASS_OOP-I.06-0-kinopoisk_main" target="1.8" />
       <module name="I.06_CLASS_OOP-I.06-0-kinopoisk_test" target="1.8" />
       <module name="I.06_CLASS_OOP-I.06-0-song_main" target="1.8" />
