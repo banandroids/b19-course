@@ -7,4 +7,5 @@ content:
 - I.02 HOME Variables and String
 - I.04 HOME Loops and Arrays
 - I.05 CLASS Functions
-- I.06 CLASS OOP
+- I.06 HOME Classes
+- I.08 HOME Constructors and inheritance

@@ -34,8 +34,8 @@
       <module name="I.02_Variables_and_String-EduTools-0_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-EduTools__1__main" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-EduTools__1__test" target="1.8" />
-      <module name="I.02_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutools_main" target="1.8" />
+      <module name="I.02_Variables_and_String-I.02-0-EduTools_main" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-EduTools_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutools_test" target="1.8" />
       <module name="I.02_Variables_and_String-I.02-0-edutoolss_main" target="1.8" />
@@ -170,6 +170,38 @@
       <module name="I.06_CLASS_OOP-I.06-1-pizza_test" target="1.8" />
       <module name="I.06_CLASS_OOP-I.06-2-song_main" target="1.8" />
       <module name="I.06_CLASS_OOP-I.06-2-song_test" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-0-kinopoisk_test" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-1-pizza_main" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-1-pizza_test" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-2-song_main" target="1.8" />
+      <module name="I.06_HOME_Class-I.06-2-song_test" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-0-kinopoisk_test" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-1-pizza_main" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-1-pizza_test" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-2-song_main" target="1.8" />
+      <module name="I.06_HOME_Classe-I.06-2-song_test" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-0-kinopoisk_test" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-1-pizza_main" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-1-pizza_test" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-2-song_main" target="1.8" />
+      <module name="I.06_HOME_Classes-I.06-2-song_test" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-0-kinopoisk_main" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-0-kinopoisk_test" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-1-pizza_main" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-1-pizza_test" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-2-song_main" target="1.8" />
+      <module name="I.06_HOME_OOP-I.06-2-song_test" target="1.8" />
+      <module name="I.08_HOME_Constructors_and_inheritance-I.08-0-coder_main" target="1.8" />
+      <module name="I.08_HOME_Constructors_and_inheritance-I.08-0-coder_test" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-0-coder_main" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-0-coder_test" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-0-x_main" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-0-x_test" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-1-y_main" target="1.8" />
+      <module name="I.08_HOME_Конструкторы_и_наследование-I.08-1-y_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
       <module name="lesson1-task1_test" target="1.8" />
       <module name="lesson1-Задание_1_main" target="1.8" />

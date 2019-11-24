@@ -21,9 +21,10 @@
             <option value="$PROJECT_DIR$/I.04 HOME Loops and Arrays/I.04-2-pyramid" />
             <option value="$PROJECT_DIR$/I.05 CLASS Functions/I.05-0-random-name" />
             <option value="$PROJECT_DIR$/I.05 CLASS Functions/I.05-1-search-backpack" />
-            <option value="$PROJECT_DIR$/I.06 CLASS OOP/I.06-0-kinopoisk" />
-            <option value="$PROJECT_DIR$/I.06 CLASS OOP/I.06-1-pizza" />
-            <option value="$PROJECT_DIR$/I.06 CLASS OOP/I.06-2-song" />
+            <option value="$PROJECT_DIR$/I.06 HOME Classes/I.06-0-kinopoisk" />
+            <option value="$PROJECT_DIR$/I.06 HOME Classes/I.06-1-pizza" />
+            <option value="$PROJECT_DIR$/I.06 HOME Classes/I.06-2-song" />
+            <option value="$PROJECT_DIR$/I.08 HOME Constructors and inheritance/I.08-0-coder" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
