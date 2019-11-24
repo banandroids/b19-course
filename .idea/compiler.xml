@@ -218,6 +218,8 @@
       <module name="old_I.05_CLASS_Functions-I.05-0-random-name_test" target="1.8" />
       <module name="old_I.05_CLASS_Functions-I.05-1-search-backpack_main" target="1.8" />
       <module name="old_I.05_CLASS_Functions-I.05-1-search-backpack_test" target="1.8" />
+      <module name="old_I.08_HOME_Constructors_and_inheritance-I.08-0-coder_main" target="1.8" />
+      <module name="old_I.08_HOME_Constructors_and_inheritance-I.08-0-coder_test" target="1.8" />
       <module name="util_main" target="1.8" />
       <module name="util_test" target="1.8" />
       <module name="Урок_1-Задание_1_main" target="1.8" />
