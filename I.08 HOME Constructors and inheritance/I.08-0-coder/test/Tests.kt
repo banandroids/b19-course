@@ -3,8 +3,6 @@ import org.junit.Test
 import kotlin.reflect.full.memberFunctions
 
 class Test {
-    private val knownWords = arrayOf("val", "class", "fun")
-
     @Test fun testSolution() {
         val members = Coder::class.members
         val sleepFunction = members.find { it.name == "sleep" }
@@ -53,7 +51,7 @@ class Test {
             val parts = code.trim().split(" ")
             Assert.assertEquals("В коде неправильное количество слов (скилл у героя был равен $skill)", skill, parts.size)
             for (p in parts) {
-                Assert.assertTrue("В коде присутствует слово $p (а не должно!)", p in knownWords)
+                Assert.assertTrue("В коде присутствует слово $p (должно использовать только fun!)", p == "fun")
             }
         }
     }

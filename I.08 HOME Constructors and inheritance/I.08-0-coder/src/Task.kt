@@ -1,3 +1,6 @@
+import java.lang.Float.max
+import java.lang.Float.min
+
 // класс Кодер
 class Coder(
         var skill: Int = 1, // скилл
