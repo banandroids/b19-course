@@ -1,0 +1,53 @@
+<p>
+</p><h2 style="text-align: center;">I.013-0 Задание от Кинопоиска II</h2>
+<p><b>Задание:</b> Кинопоиск пишет базу данных на Котлине для хранения фильмов
+    и просит вас создать метод <code>search</code> для поиска фильмов по названию и рейтингу.</p>
+<p>Кинопоиск уже создал класс фильма <code>Film</code> с полями:
+<ul>
+    <li><code>name</code> - название фильма (строка)</li>
+    <li><code>rating</code> - рейтинг фильма (дробное число, от <code>0</code> до <code>10</code>)</li>
+</ul>
+</p>
+<p>Нужно написать метод <code>search</code> с параметрами:
+<ul>
+    <li><code>films</code> - полный список с фильмами</li>
+    <li><code>x</code> - текст, который ищет в названии фильма пользователь</li>
+    <li><code>y</code> - минимальный рейтинг фильма</li>
+</ul>
+Этот метод должен вернуть только те фильма, в названии которых есть <code>x</code> (любыми буквами -
+большими или маленькими) и рейтинг которых больше или равен <code>y</code>.
+
+<p><b>Пример:</b> Для тестовых данных из <code>main()</code> выражение <code>search(testFilms, "ёлки", 6f)</code>
+    должно вернуть список из одно фильма "Ёлки" (потому что "Ёлки 5" не проходят по рейтингу).<br>
+</p>
+
+<h2>Теория:</h2>
+<p><b>Списки</b> (или листы, потому что List) - типа массива, только удобнее: можно изменить размер
+    после создания (а у массивов нельзя) и больше полезных методов. Минусы списков: массивы быстрее
+    работают и занимают меньше памяти.</p>
+<b>Создание списков:</b><br>
+<span style="font-size: 13px; font-family:monospace;">
+  // неизменяемые списки (List) - после создания ни число элементов,<br>
+  // ни сами элементы менять в них нельзя<br>
+  val list: List&lt;String&gt; = listOf("привет", "пока") // создание неизменяемого списка из двух элементов<br>
+  val list = listOf&lt;String&gt;("привет") // можно тип элемента писать после listOf<br>
+  val list = listOf("привет") // а можно совсем не указывать тип, он из <br></span>
+</p>
+
+<div class="hint" style="font-size: 12px;">Читайте про объекты и классы <a
+        href="https://github.com/banandroids/b19-A-encyclopedia/wiki/I.06#%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B-%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B"
+        rel="noopener noreferrer nofollow">здесь</a>.
+</div>
+<div class="hint" style="font-size: 12px;">
+    <p>Смотрите код, который писали в классе, <a
+            href="https://github.com/banandroids/b19-text-game/tree/6783cddccfa0a9a33f9d4e08b8f6e753556e2610/src"
+            rel="noopener noreferrer nofollow">здесь</a>.</p>
+    <p>Например, класса <code><span style="font-size: 12px;">Thing</span></code>:<br>
+        <code>
+            class Thing(<br>
+              val name: String,<br>
+              val weight: Float = 0.1f,<br>
+              val cost: Int = 0<br>
+            )
+        </code></p>
+</div>

@@ -204,6 +204,10 @@
       <module name="I.08_HOME_Конструкторы_и_наследование-I.08-0-x_test" target="1.8" />
       <module name="I.08_HOME_Конструкторы_и_наследование-I.08-1-y_main" target="1.8" />
       <module name="I.08_HOME_Конструкторы_и_наследование-I.08-1-y_test" target="1.8" />
+      <module name="I.13_CLASS-I.13-0_main" target="1.8" />
+      <module name="I.13_CLASS-I.13-0_test" target="1.8" />
+      <module name="I.14_CLASS-I.13-0_main" target="1.8" />
+      <module name="I.14_CLASS-I.13-0_test" target="1.8" />
       <module name="lesson1-task1_main" target="1.8" />
       <module name="lesson1-task1_test" target="1.8" />
       <module name="lesson1-Задание_1_main" target="1.8" />
